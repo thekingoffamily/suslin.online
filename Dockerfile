@@ -6,5 +6,5 @@ RUN apt-get update
 RUN apt-get install -y python3
 RUN apt-get -y install python3-pip
 RUN pip3 install flask
-ENTRYPOINT ['python']
-CMD ['main.py']
+ENTRYPOINT ["python3"]
+CMD ["main.py"]
